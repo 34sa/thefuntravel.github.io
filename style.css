@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root
+{
+    --font-family: 'Merriweather',serif;
+    
+}
+*
+{
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+.html
+{
+    font-size: 62.5%;
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+    
+}
+
+.header
+{
+   
+    height: 4REM;
+    padding: 2rem;
+    background-color:whitesmoke;
+    box-shadow: 1px 7px 7PX  lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 999;
+    
+}
+
+.header .logo
+{
+ color: blue;
+ font-size: 1.5rem;
+ font-family: 'Merriweather', serif;
+ padding: 2rem;
+ font-weight: 600;
+ border: none;
+}
+.header .logo:hover
+{
+ color: black;
+ transition: all .3s ease-in;
+ font-weight: 700px;
+ font-style: italic;
+}
+.header .navbar .a{
+ color: black;
+ font-size: 1.1rem;
+ margin: 1.2rem;
+ font-family: 'Merriweather', serif;
+}
+.header .navbar .a:hover
+{
+ color: blue;
+ text-decoration:underline;
+}
+.header .icon-1
+{
+ padding: 1.5rem;
+ font-size: 1.1rem;
+ font-weight: 500;
+ color: blue;
+ font-family: 'Merriweather', serif;
+}
+.header .button
+{
+    background-color: black;
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    padding: 3px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2), 0 4px 15px 0 rgba(0,0,0,0.19);
+}
+.header .button:hover
+{
+    background-color: blue;
+    transition: all .2 ease-in;
+    font-weight: 600;
+}
+#menu-btn
+{
+    display: none;
+}
+.hero-section
+{
+    height: 100vh;
+    width: 100%;
+    background: url("hero-image.jpg") ;
+    background-size: cover;
+    background-position:top 50% right 0%;
+    display: grid;
+    justify-content: flex-start;
+    
+}
+
+.hero-section .hero-heading
+{
+   font-size: 5rem;
+   font-family: 'Merriweather', serif;
+   font-weight: 700px;
+   padding: 8rem 2rem 0rem;
+   margin-left: 8rem;
+   color: #0E86D4;
+}
+.sub-heading
+{
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding: 0rem 10rem 1rem ;
+    color: #53a3ef;
+}
+.sub-section
+{
+    position: absolute;
+    width: 1136px;
+    height: 100px;
+    left: 150px;
+    top: 601px;
+    background: #ffffff;
+    border-radius: 30px;
+    color: #000000;
+    position: absolute;
+    z-index: 1000%;
+}
+.sub-section  .box-container
+{
+font-size: 1.1rem;
+padding: 1rem;
+text-align: center;
+display: flex;
+justify-content: space-around;
+text-transform: capitalize;
+
+}
+
+.sub-section  .box-container .box-containerinfo 
+{
+
+padding: .5REM;
+border-radius: .9rem;
+
+}
+.sub-section  .box-container .box-containerinfo h2
+{
+color: #000;
+font-weight: 600;
+text-transform: capitalize;
+font-size: 1rem;
+
+}
+.sub-section  .box-container .box-containerinfo h5
+{
+    font-size: .9rem;
+    font-weight: 300;
+    color: #0E86D4;
+}
+
+.vl
+{
+    border-left: 1px solid green;
+    position: relative;
+    
+}
+.sub-section  .box-container .button1
+{
+    background-color:#53a3ef;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 2rem;
+    border: none;
+    transition: all .3s ease;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2), 0 4px 15px 0 rgba(0,0,0,0.19);
+}
+.sub-section  .box-container .button1 .fa-solid
+{
+    font-size: 2rem;
+}
+.sub-section  .box-container .button1:hover
+{
+    color: white;
+    background-color: black;
+    
+} 
+.conatainer
+{
+height: 80vh;
+width: 100%;
+
+
+}
+.gallary
+{
+    padding: 4rem 0rem 0rem 8rem;
+    line-height: 2rem;
+    
+}
+.gallary h1{
+    font-size: 2rem;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+} 
+.gallary h6
+{
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: 'Merriweather', serif;
+    color: rgb(124, 125, 128);
+   
+}
+.arrows
+{
+    padding-left: 70rem;
+    margin-top: -4rem;
+    gap: 1.5rem;
+    align-items: center;
+    display: flex;
+    
+}
+.arrows .fa-regular
+{
+    font-size: 2.1rem;
+    width: 2rem;
+    padding: 0rem;
+    border-radius: 2REM;
+}
+.arrows .fa-regular :hover
+{
+   font-weight: 700;
+}
+
+.button1
+{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 2rem;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2), 0 4px 15px 0 rgba(0,0,0,0.19);
+    border: none;
+}
+.button2
+{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 2rem;
+    background-color: #53a3ef;
+    border: none;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2), 0 4px 15px 0 rgba(158, 156, 204, 0.19);
+}
+.arrows .button1 :hover
+{
+  
+    color: #0E86D4;
+}
+.arrows .button2 :hover
+{
+    color: #ffffff;
+}
+.img-gallary
+{
+   display: flex-start;
+   justify-content: space-around;
+   height: 2rem;
+   padding-top: 3rem;
+   margin-bottom: 10rem;
+}
+.img-container
+{
+    display: flex;
+}
+.img-info .img
+{
+    height: 16rem;
+    width: 15rem;
+    margin-right: 1.5rem;
+    border-radius: 1.3rem;
+    transition: all .3s ease-in;
+}
+
+.h3
+{
+  
+    font-size: 1rem;
+    position: absolute;
+    margin-left: 9rem;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1rem;
+    border-radius: 2rem;
+    padding: auto;
+    font-weight: 600;
+    height: 2rem;
+    width: 5rem;
+    padding: 0.3rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    
+}
+h2
+{
+    font-size: 1rem;
+    font-family: 'Merriweather', serif;
+    line-height: 1rem;
+}
+para
+{
+    font-size: .9rem;
+    color: #9b9c9f;
+    font-family: 'Merriweather', serif;
+}
+
+.review
+{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.review-customer h1{
+    font-size: 3rem;
+    line-height: 3rem; 
+    font-weight: 900;  
+    font-family: 'Merriweather', serif;
+    padding-bottom: 2rem;
+    
+}
+.review-customer h6
+{
+    font-size: 1rem;
+    line-height: 1.5rem; 
+    font-weight: 400;  
+    font-family: 'Merriweather', serif;
+    padding-bottom: 2rem;
+    color: rgb(124, 125, 128);
+}
+.review-customer h3
+{
+    font-size: 1.3rem;
+    font-weight: 800;  
+    font-family: 'Merriweather', serif;
+    padding-bottom: .5rem;
+}
+.review-customer i
+{
+    color: #e6a325;
+    
+}
+.imes
+{
+    height: 38rem;
+    width: 100%;
+}
+.signup
+{
+    height: 70vh;
+    width: 100%;
+    padding: 5rem;
+    text-align: center;
+    background-color: #dde6f7;
+}
+.info h2
+{
+    font-size: 2.5rem;
+    line-height: 4.5rem;
+
+}
+.info h6
+{
+font-size: 1.2rem;
+color: rgb(124, 125, 128);
+font-weight: 500;
+font-family: 'Merriweather', serif;
+line-height: 3;
+padding-bottom: 2rem;
+}
+.info .button
+{
+    background-color: rgb(16, 37, 227);
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    padding: 3px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    box-shadow: 0 6px 10px 0 rgb(0 0 0 / 20%), 0 4px 15px 0 rgb(0 0 0 / 19%);
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.2rem;
+}
+.info .button:hover
+{
+    color: rgb(255, 255, 255);
+    background-color: #000;
+    transition:all 3s ease-out;
+}
+.footar
+{
+    height: 40vh;
+    background-color: #000;
+    color: white;
+    padding: 4rem;
+    align-items: center;
+}
+.footar .footar-info
+{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    cursor: pointer;
+}
+.footar .footar-info .title h3
+{
+font-size: 1.5rem;
+font-family: 'Merriweather', serif;
+font-weight: 600;
+}
+.footar .footar-info .title h3:hover{
+    color: #0f47ed;
+}
+.footar .footar-info .title h6
+{
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: 'Merriweather', serif;
+    cursor: pointer;
+}
+.footar .footar-info .info h1
+{
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: 'Merriweather', serif;
+    padding-bottom: 1rem;
+    margin-right: 1rem;
+    transition: all .3s ease;
+}
+.footar .footar-info .info h1:hover
+{
+   text-decoration: underline;
+   color: #0f47ed;
+   margin-left: 2%;
+   
+}
+.footar .footar-info .info h5
+{
+ font-size: .9rem;
+ font-weight: 300;
+ line-height: 2rem;
+ cursor: pointer;
+}
+.footar .footar-info .info h5:hover
+{
+    font-size: 1rem;
+    transition: all .4s linear;
+    text-decoration: underline;
+}
+.footar .footar-info .info h6
+{
+ font-size: .9rem;
+ font-weight: 400;
+ line-height: 2rem;
+ cursor: pointer;
+}
